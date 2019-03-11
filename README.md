@@ -1,8 +1,8 @@
-# Javascript30
+# <span style="font-family:Papyrus; font-size:4em;">Javascript30</span>
 Refactoring javascript30 using typescript, react, redux and redux-saga
 
 ## Stack
-1. Typescript 3.2.4
+1. <span style="color:red">Typescript 3.2.4</span>
 2. React 16.8.1
 3. Redux 4.0.1
 4. Redux-saga 1.0.0
