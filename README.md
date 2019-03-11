@@ -1,5 +1,5 @@
 # Javascript30
-Refactoring javascript30 using typescript, react, redux and redux-saga
+Refactoring javascript30 using typescript, react, redux and redux-saga [![Netlify Status](https://api.netlify.com/api/v1/badges/32dc6920-a82e-4177-98d7-e3ac7f2df4d0/deploy-status)](https://app.netlify.com/sites/peaceful-hamilton-217ba4/deploys)
 
 ## Stack
 1. Typescript 3.2.4
@@ -47,3 +47,4 @@ Refactoring javascript30 using typescript, react, redux and redux-saga
 
 ## Credit
 * <https://javascript30.com/>
+
