@@ -1,0 +1,9 @@
+export const boom = require('./boom.wav');
+export const clap = require('./clap.wav');
+export const hihat = require('./hihat.wav');
+export const kick = require('./kick.wav');
+export const openhat = require('./openhat.wav');
+export const ride = require('./ride.wav');
+export const snare = require('./snare.wav');
+export const tink = require('./tink.wav');
+export const tom = require('./tom.wav');
