@@ -9,7 +9,7 @@ Refactoring <span style="color:red">javascript30</span> using typescript, react,
 
 ## Contents
 - [x] JavaScript Drum Kit
-- [ ] CSS + JS Clock
+- [X] CSS + JS Clock
 - [ ] Playing with CSS Variables and JS
 - [ ] Flex Panels Image Gallery
 - [ ] Ajax Type Ahead

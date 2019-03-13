@@ -1,4 +1,4 @@
-import { Home, Drum } from 'page';
+import { Home, Drum, Clock } from 'page';
 
 export const route = [
   {
@@ -9,6 +9,11 @@ export const route = [
   {
     path: '/drum-kit',
     page: Drum,
+    exact: true,
+  },
+  {
+    path: '/clock',
+    page: Clock,
     exact: true,
   },
 ];
