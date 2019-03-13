@@ -8,7 +8,7 @@ Refactoring <span style="color:red">javascript30</span> using typescript, react,
 4. Redux-saga 1.0.0
 
 ## Contents
-- [ ] JavaScript Drum Kit
+- [x] JavaScript Drum Kit
 - [ ] CSS + JS Clock
 - [ ] Playing with CSS Variables and JS
 - [ ] Flex Panels Image Gallery

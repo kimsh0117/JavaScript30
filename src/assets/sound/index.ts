@@ -1,9 +1,21 @@
-export const boom = require('./boom.wav');
-export const clap = require('./clap.wav');
-export const hihat = require('./hihat.wav');
-export const kick = require('./kick.wav');
-export const openhat = require('./openhat.wav');
-export const ride = require('./ride.wav');
-export const snare = require('./snare.wav');
-export const tink = require('./tink.wav');
-export const tom = require('./tom.wav');
+const boom = require('./boom.wav');
+const clap = require('./clap.wav');
+const hihat = require('./hihat.wav');
+const kick = require('./kick.wav');
+const openhat = require('./openhat.wav');
+const ride = require('./ride.wav');
+const snare = require('./snare.wav');
+const tink = require('./tink.wav');
+const tom = require('./tom.wav');
+
+export default {
+  boom,
+  clap,
+  hihat,
+  kick,
+  openhat,
+  ride,
+  snare,
+  tink,
+  tom,
+} as {[key: string]: any};
