@@ -13,6 +13,7 @@ const PageTemplate: React.FC<Props> = ({ children }) => (
         <li><Link to="/">home</Link></li>
         <li><Link to="/drum-kit">drum-kit</Link></li>
         <li><Link to="/clock">clock</Link></li>
+        <li><Link to="/panels">panels</Link></li>
       </ul>
     </aside>
     <article>{children}</article>

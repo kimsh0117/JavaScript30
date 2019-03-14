@@ -8,3 +8,6 @@ export { DrumMain } from 'component/drum-kit';
 
 // css + clock
 export { ClockMain } from 'component/clock';
+
+// flex panels image gallery
+export { PanelsMain } from 'component/panels';

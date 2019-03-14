@@ -11,7 +11,7 @@ Refactoring <span style="color:red">javascript30</span> using typescript, react,
 - [x] JavaScript Drum Kit
 - [X] CSS + JS Clock
 - [ ] Playing with CSS Variables and JS
-- [ ] Flex Panels Image Gallery
+- [X] Flex Panels Image Gallery
 - [ ] Ajax Type Ahead
 - [ ] Fun with HTML5 Canvas
 - [ ] 14 Must Know Dev Tools Tricks

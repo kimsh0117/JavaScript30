@@ -1,4 +1,4 @@
-import { Home, Drum, Clock } from 'page';
+import { Home, Drum, Clock, Panels } from 'page';
 
 export const route = [
   {
@@ -14,6 +14,11 @@ export const route = [
   {
     path: '/clock',
     page: Clock,
+    exact: true,
+  },
+  {
+    path: '/panels',
+    page: Panels,
     exact: true,
   },
 ];
