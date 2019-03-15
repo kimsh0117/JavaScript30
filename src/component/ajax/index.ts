@@ -1,1 +1,1 @@
-export { default as AjaxMain } from './Main';
+export { default as AjaxMain } from './main';

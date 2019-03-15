@@ -3,13 +3,13 @@ import { countryAction } from 'store/actions';
 import { rootState } from 'store/reducers';
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import * as models from 'store/models';
+import { countries, AjaxState } from 'store/models';
 import { AjaxMain } from 'component';
 
 const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
 
 interface Props {
-  countries: models.AjaxState,
+  countries: AjaxState,
   getCountries: typeof countryAction.countryRequest;
 }
 
@@ -21,7 +21,7 @@ class Country extends React.Component<Props> {
     const { countries } = this.props;
     return (
       <>
-        <AjaxMain countries={countries} />
+        <AjaxMain countries={countries}/>
       </>
     )
   }
