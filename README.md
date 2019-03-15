@@ -12,7 +12,7 @@ Refactoring <span style="color:red">javascript30</span> using typescript, react,
 - [X] CSS + JS Clock
 - [ ] Playing with CSS Variables and JS
 - [X] Flex Panels Image Gallery
-- [ ] Ajax Type Ahead
+- [X] Ajax Type Ahead
 - [ ] Fun with HTML5 Canvas
 - [ ] 14 Must Know Dev Tools Tricks
 - [ ] Hold Shift to Check Multiple Checkboxes
