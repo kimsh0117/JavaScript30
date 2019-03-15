@@ -1,30 +1,44 @@
 import * as types from 'store/constants';
-import { countries } from 'store/models';
+import { AjaxState } from 'store/models';
+
+let request: string, success: string, failure: string;
+
+request = types.GET_COUNTRIES[types.REQUEST];
+success = types.GET_COUNTRIES[types.SUCCESS];
+failure = types.GET_COUNTRIES[types.FAILURE];
+
 
 const countryRequest = (url: string) => ({
-  type: types.GET_COUNTRIES[types.REQUEST],
+  type: request,
   url,
 });
 
-const countrySuccess = (countries: countries) => ({
-  type: types.GET_COUNTRIES[types.SUCCESS],
-  // payload: countries [],
+const countrySuccess = (countries: AjaxState) => ({
+  type: success,
+  payload: countries,
 });
 
 const countryfailure = (err: Error) => ({
-  type: types.GET_COUNTRIES[types.FAILURE],
+  type: failure,
   err: err.message,
 });
 
 interface countryRequestAction {
-  type: typeof types.GET_COUNTRIES["REQUEST"];
+  type: typeof request;
   url: string;
 }
 
 interface countrySuccessAction {
-  type: typeof types.GET_COUNTRIES["SUCCESS"];
-  // payload: countries;
+  type: typeof success;
+  payload: AjaxState;
 }
+
+interface countryFailureAction {
+  type: typeof failure;
+  err: string;
+}
+
+export type CountryActionTypes = countryRequestAction | countrySuccessAction | countryFailureAction;
 
 export default {
   countryRequest,

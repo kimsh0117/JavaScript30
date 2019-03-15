@@ -1,3 +1,4 @@
+// for Ajax Type Ahead
 export interface countries {
   city: string;
   growth_from_2000_to_2013: string;
@@ -7,3 +8,9 @@ export interface countries {
   rank: string;
   state: string;
 }
+
+export interface AjaxState {
+  country: countries[];
+  err?: string;
+}
+// -------------------------------------
