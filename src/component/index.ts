@@ -11,3 +11,6 @@ export { ClockMain } from 'component/clock';
 
 // flex panels image gallery
 export { PanelsMain } from 'component/panels';
+
+// flex panels image gallery
+export { AjaxMain } from 'component/ajax';

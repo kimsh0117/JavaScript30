@@ -4,9 +4,10 @@ import './PageTemplate.scss';
 
 interface Props {
   children?: React.ReactNode;
+  color?: string;
 }
 
-const PageTemplate: React.FC<Props> = ({ children }) => (
+const PageTemplate: React.FC<Props> = ({ children, color }) => (
   <div className="page-template">
     <aside>
       <ul>
@@ -14,9 +15,10 @@ const PageTemplate: React.FC<Props> = ({ children }) => (
         <li><Link to="/drum-kit">drum-kit</Link></li>
         <li><Link to="/clock">clock</Link></li>
         <li><Link to="/panels">panels</Link></li>
+        <li><Link to="/ajax">ajax type ahead</Link></li>
       </ul>
     </aside>
-    <article>{children}</article>
+    <article style={{backgroundColor: `${color}`}}>{children}</article>
   </div>
 );
 
