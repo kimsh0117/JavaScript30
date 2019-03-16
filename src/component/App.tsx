@@ -4,9 +4,11 @@ import { route } from 'lib/routes';
 
 const App: React.SFC = () => (
   <>
-    {route.map(({path, page, exact}, i) => (
-      <Route exact={exact} path={path} component={page} key={i}/>
-    ))}
+    <Switch>
+      {route.map(({path, page, exact}, i) => (
+        <Route exact={exact} path={path} component={page} key={i}/>
+      ))}
+    </Switch>
   </>
 )
 export default App;
