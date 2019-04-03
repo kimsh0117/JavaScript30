@@ -5,7 +5,7 @@ import { route } from 'lib/routes';
 const App: React.SFC = () => (
   <>
     <Switch>
-      {route.map(({path, page, exact}, i) => (
+      {route.map(({path, page, exact}, i ) => (
         <Route exact={exact} path={path} component={page} key={i}/>
       ))}
     </Switch>
